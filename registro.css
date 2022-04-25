@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+}
+
+#modelo {
+	width: 1000px;
+	height: 900px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+header {
+	display: flex;
+}
+
+#letras {
+	width: 600px;
+	height: 100px;
+	background-color: red;
+
+}
+
+#letras h2 {
+	color: white;
+	text-align: left;
+	line-height: 100px;
+	margin-left: 10px;
+}
+
+#logo {
+	align-self: center;
+	display: flex;
+	width: 25%;
+	flex-direction: column;
+	height: 25%;
+	margin-left: 50px;
+}
+
+#mediafire {
+	display: flex;
+	margin-top: -10;
+}
+
+#mediaimage {
+	background-color: lightgray;
+	width: 350px;
+	height: 650px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#mediaimage img {
+	margin-top: 150px;
+
+}
+
+#general {
+	margin-top: 5rem;
+    width: 70%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#preguntas {
+	width: 410px;
+	height: 100px;
+	background-color: red;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+#preguntas h2,h3{
+	margin-top: 10px;
+	color: white;
+}
+
+
+#busqueda {
+	margin-top: 30px;
+	flex-direction: column;
+	display: flex;
+	margin-bottom: 40px;
+}
+
+#buqueda h1{
+	color: gray;
+	margin-top: 10px;
+}
+
+#busqueda input{
+	margin-top: 16px;
+	height: 48px;
+}
+
+
+#busqueda button {
+	margin-top: 16px;
+	cursor: pointer;
+	background-color: red;
+	border: transparent;
+	height: 48px;
+	margin-bottom: 32px;
+}
+
+#busqueda span{
+	color: white;
+}
+
+#busqueda button:hover {
+	background-color: blue;
+}
+
+
+footer {
+	width: 1000px;
+	height: 200px;
+	background-color: red;
+	display: flex;
+	flex-direction: column;
+
+}
+
+footer a {
+	color: white;
+}
+
+#inicio {
+	flex-direction: row;
+	height: 50%;
+	width: 100%;
+	text-align: center;
+}
+
+#inicio img{
+	margin-top: 16px;
+}
+
+#inicio2 {
+	text-align: center;
+
+}
+
+#sup {
+	width: 20%;
+	margin-left: 10%;
+}
+
